@@ -1,8 +1,7 @@
 # kalculation
 복잡한 kotlin의 연산(ex. Random) 코드를 더욱 간결하게 해줍니다.
 
-ex.
-평소 kotlin으로 1~5의 숫자중 하나를 랜덤으로 뽑는다 해봅시다.
+ex. 평소 kotlin으로 1~5의 숫자중 하나를 랜덤으로 뽑는다 해봅시다.
 
 fun main(args: Array<String>) {
     val range = (1..5)
