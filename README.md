@@ -4,7 +4,7 @@
 ex.
 평소 kotlin으로 1~5의 숫자중 하나를 랜덤으로 뽑는다 해봅시다.
 
-fun main(args: Array<String>){
+fun main(args: Array<String>) {
     val range = (1..5)
     println(range.random())
 }
