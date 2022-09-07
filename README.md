@@ -17,13 +17,13 @@ fun main(args: Array<String>) {
 
 그렇다면 이렇게 복잡하고 보기 힘든 코드가 나오게됩니다.
     
-하지만 kalculation의 RandomK(  function을 활용하면
+하지만 kalculation의 RandomK( )function을 활용하면
     
 --------------------------------------------------
 
 fun main(args: Array<String>) {
     
-    val variable = Randomk(1,5) // variable == Int
+    val variable = RandomK(1,5) // variable == Int
     
     println(variable)
     
@@ -31,5 +31,5 @@ fun main(args: Array<String>) {
     
 --------------------------------------------------
 
-이런 코드를 사용해서 단 한줄의 코드만으로 랜덤한 숫자를 출력할 수 있게됩니다.
+이렇게 더욱 보기 쉬운 코드를 활용해서 랜덤한 숫자를 축력할 수 있습니다
 
