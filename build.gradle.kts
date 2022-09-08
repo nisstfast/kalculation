@@ -3,7 +3,7 @@ plugins {
     id("maven-publish")
 }
 
-group = "nisstfast.github.com"
+group = "com.github.nisstfast"
 version = "1.0.0"
 
 repositories {
