@@ -7,7 +7,7 @@ group = "com.github.nisstfast"
 version = "1.0.1"
 
 repositories {
-    mavenCentral()
+    mavenCentral()f
 }
 
 kotlin {
