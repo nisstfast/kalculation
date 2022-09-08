@@ -3,8 +3,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "nisstfast.github.io"
-version = "1.0.0"
+group = "nisstfast.github.com"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
