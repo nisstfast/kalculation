@@ -6,7 +6,7 @@
 일반적인 kotlin으로 1~5의 숫자중 하나를 랜덤으로 뽑는다 해봅시다.
 
 ``` Kotlin
-fun main(args: Array<String>) {
+fun main() {
     val range = (1..5)
     println(range.random())
 }
@@ -19,9 +19,8 @@ fun main(args: Array<String>) {
 하지만 kalculation의 RandomK( ) 함수를 활용하면
 
 ``` Kotlin
-fun main(args: Array<String>) {
-    val variable = RandomK(1,5) // variable == Int
-    println(variable)
+fun main() {
+    println(RandomK(1,5))
 }
 ```
 
