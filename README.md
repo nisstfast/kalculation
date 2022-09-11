@@ -32,8 +32,13 @@ fun main() {
 Gradle
 
 ``` Gradle
+repositories {
+    maven("https://jitpack.io")
+}
+```
+``` Gradle
 dependencies {
-    implemetation("com.github.nisstfast:kalculation:<version>")
+    implementation("com.github.nisstfast:kalculation:<version>")
 }
 ```
 
