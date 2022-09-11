@@ -32,4 +32,4 @@ fun Round(first: Double, second: Long) : Double {
 fun Root(first: Double) : Double {
     val RootR = sqrt(first)
     return RootR
-}f
+}
