@@ -16,15 +16,16 @@ fun main() {
 
 ----------------------------------------------------------------
 
-하지만 kalculation의 RandomK( ) 함수를 활용하면
+하지만 kalculation의 Random( ) 함수를 활용하면
 
 ``` Kotlin
 fun main() {
-    println(RandomK(1,5))
+    println(Random(1,5))
 }
 ```
 
-이렇게 더욱 이해하기 쉬운 코드를 활용해서 랜덤한 숫자를 출력할 수 있습니다
+이렇게 더욱 이해하기 쉬운 코드를 활용해서 랜덤한 숫자를 출력할 수 있습니다.  
+이외에도 여러가지 편리한 기능들이 포함되어 있습니다.
 
 ----------------------------------------------------------------
 
@@ -32,7 +33,7 @@ Gradle
 
 ``` Gradle
 dependencies {
-    implemetation("com.github.nisstfast:kalculation:version")
+    implemetation("com.github.nisstfast:kalculation:<version>")
 }
 ```
 
